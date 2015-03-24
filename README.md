@@ -11,6 +11,7 @@
 [davidhalter/jedi-vim](https://github.com/davidhalter/jedi-vim)    
 + Syntax highlighting, Virtualenv support, Run python code, Linting..etc.    
 [klen/python-mode](https://github.com/klen/python-mode)
+
 ##For JavaScript Dev
 ###Articles
 [Vim Dev with Go and JS](http://blog.v-studios.com/2014/08/setting-up-vim-for-development-with-go.html)
