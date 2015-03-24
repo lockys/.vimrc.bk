@@ -3,6 +3,7 @@
 ###Articles
 + [Turning Vim into a modern Python IDE](http://www.sontek.net/blog/2011/05/07/turning_vim_into_a_modern_python_ide.html#window-splits)    
 + [Vim as a Python IDE](http://unlogic.co.uk/2013/02/08/vim-as-a-python-ide/)    
+
 ###Libraries
 + Python Tab-completion for Vim    
 [rkulla/pydiction](https://github.com/rkulla/pydiction)    
@@ -16,4 +17,4 @@
 
 ## Start from...
 Awesome the plug-in manager for Vim
-[Vundle](https://github.com/gmarik/Vundle.vim)
++ [Vundle](https://github.com/gmarik/Vundle.vim)
