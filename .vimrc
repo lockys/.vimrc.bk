@@ -102,6 +102,8 @@ set showmode                 " Show current mode
 set backspace=2              " make backspace work like most other apps
 set scrolloff=3
 
+"==========  Bundle Setting ======
+
 "==== For Python mode in vim =====
 let g:pymode_rope = 0
 
