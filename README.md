@@ -1,4 +1,4 @@
-#My own .vimrc Backup Repo
+#.vimrc Backup Repo :bookmark:
 This repo is backup of my vim setting.
 ##For Python Development
 ###Tutorial Articles
