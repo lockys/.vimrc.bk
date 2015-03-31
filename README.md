@@ -9,37 +9,10 @@ This repo is backup of my vim setting.
 + [rkulla/pydiction](https://github.com/rkulla/pydiction)  
 Python Tab-completion for Vim  
 Put the dictionary file in the below dir and add this line.
-      
-    let g:pydiction_location = '/Users/<Username>/.vim/bundle/pydiction/complete-dict'
-      
 + [davidhalter/jedi-vim](https://github.com/davidhalter/jedi-vim)  
 Python autocompletion with VIM
 + [klen/python-mode](https://github.com/klen/python-mode)  
 Syntax highlighting, Virtualenv support, Run python code, Linting..etc.  
-Here is my pymode setting.  
-let g:pymode_rope = 0
-    " Documentation
-    let g:pymode_doc = 1
-    let g:pymode_doc_key = 'K'
-    let g:pymode_folding = 1
-
-    " Linting
-    let g:pymode_lint = 1
-    let g:pymode_lint_checker = "pyflakes,pep8"
-
-    " Auto check on save
-    let g:pymode_lint_write = 1
-
-    " Support virtualenv
-    let g:pymode_virtualenv = 1
-
-    " Syntax hightlighting.
-    let g:pymode_syntax = 1
-    let g:pymode_syntax_all = 1
-    let g:pymode_syntax_indent_errors = g:pymode_syntax_all
-    let g:pymode_syntax_space_errors = g:pymode_syntax_all
-
-
 + [Syntastic](https://github.com/scrooloose/syntastic)  
 Syntastic is a syntax checking plugin for Vim  
 
@@ -66,16 +39,6 @@ This plugin highlights the matching HTML tag when the cursor is positioned on a 
 ## Other convenient tools
 + [NerdTreeTab](https://github.com/jistr/vim-nerdtree-tabs)  
 This plugin aims at making NERDTree feel like a true panel, independent of tabs.
-NerdTree Setting  
-
-
-    " ===== For Nerd Tree Setting =====
-    map <F2> :NERDTreeToggle<CR>
-    map <F1> :NERDTreeTabsToggle<CR>
-
-Press fn + F1 to open NERDTreeTabsToggle  
-Press fn + F2 to open NERDTreeToggle
-
 
 ## Start from...
 Awesome the plug-in manager for Vim
