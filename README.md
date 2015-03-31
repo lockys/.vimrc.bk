@@ -8,7 +8,6 @@ This repo is backup of my vim setting.
 ###Collection of Libraries
 + [rkulla/pydiction](https://github.com/rkulla/pydiction)  
 Python Tab-completion for Vim  
-Put the dictionary file in the below dir and add this line.
 + [davidhalter/jedi-vim](https://github.com/davidhalter/jedi-vim)  
 Python autocompletion with VIM
 + [klen/python-mode](https://github.com/klen/python-mode)  
