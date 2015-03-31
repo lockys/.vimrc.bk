@@ -18,27 +18,27 @@ Python autocompletion with VIM
 Syntax highlighting, Virtualenv support, Run python code, Linting..etc.  
 Here is my pymode setting.  
 
-      let g:pymode_rope = 0
-      " Documentation
-      let g:pymode_doc = 1
-      let g:pymode_doc_key = 'K'
-      let g:pymode_folding = 1
+    let g:pymode_rope = 0
+    " Documentation
+    let g:pymode_doc = 1
+    let g:pymode_doc_key = 'K'
+    let g:pymode_folding = 1
 
-      " Linting
-      let g:pymode_lint = 1
-      let g:pymode_lint_checker = "pyflakes,pep8"
+    " Linting
+    let g:pymode_lint = 1
+    let g:pymode_lint_checker = "pyflakes,pep8"
 
-      " Auto check on save
-      let g:pymode_lint_write = 1
+    " Auto check on save
+    let g:pymode_lint_write = 1
 
-      " Support virtualenv
-      let g:pymode_virtualenv = 1
+    " Support virtualenv
+    let g:pymode_virtualenv = 1
 
-      " Syntax hightlighting.
-      let g:pymode_syntax = 1
-      let g:pymode_syntax_all = 1
-      let g:pymode_syntax_indent_errors = g:pymode_syntax_all
-      let g:pymode_syntax_space_errors = g:pymode_syntax_all
+    " Syntax hightlighting.
+    let g:pymode_syntax = 1
+    let g:pymode_syntax_all = 1
+    let g:pymode_syntax_indent_errors = g:pymode_syntax_all
+    let g:pymode_syntax_space_errors = g:pymode_syntax_all
 
 + [Syntastic](https://github.com/scrooloose/syntastic)  
 Syntastic is a syntax checking plugin for Vim  
