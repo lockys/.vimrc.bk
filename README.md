@@ -9,19 +9,15 @@ This repo is backup of my vim setting.
 + [rkulla/pydiction](https://github.com/rkulla/pydiction)  
 Python Tab-completion for Vim  
 Put the dictionary file in the below dir and add this line.
-
-
-      let g:pydiction_location = '/Users/<Username>/.vim/bundle/pydiction/complete-dict'
-
-
+      
+    let g:pydiction_location = '/Users/<Username>/.vim/bundle/pydiction/complete-dict'
+      
 + [davidhalter/jedi-vim](https://github.com/davidhalter/jedi-vim)  
 Python autocompletion with VIM
 + [klen/python-mode](https://github.com/klen/python-mode)  
 Syntax highlighting, Virtualenv support, Run python code, Linting..etc.  
 Here is my pymode setting.  
-
-
-    let g:pymode_rope = 0
+let g:pymode_rope = 0
     " Documentation
     let g:pymode_doc = 1
     let g:pymode_doc_key = 'K'
