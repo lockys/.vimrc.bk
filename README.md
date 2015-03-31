@@ -13,7 +13,6 @@ Put the dictionary file in the below dir and add this line.
 
     let g:pydiction_location = '/Users/<Username>/.vim/bundle/pydiction/complete-dict'
 
-
 + [davidhalter/jedi-vim](https://github.com/davidhalter/jedi-vim)  
 Python autocompletion with VIM
 + [klen/python-mode](https://github.com/klen/python-mode)  
