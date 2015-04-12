@@ -43,13 +43,13 @@ Bundle 'honza/vim-snippets'
 Bundle 'garbas/vim-snipmate'
 
 " ====== For python dev ======
-Bundle 'davidhalter/jedi-vim'
+"Bundle 'davidhalter/jedi-vim'
 " Python syntax, indent check
-Bundle 'hynek/vim-python-pep8-indent'
+"Bundle 'hynek/vim-python-pep8-indent'
 " Supertab is a vim plugin which allows you to use <Tab> for all your insert completion needs
 Bundle 'ervandew/supertab'
 "Bundle 'kevinw/pyflakes-vim'
-Bundle 'scrooloose/syntastic'
+"Bundle 'scrooloose/syntastic'
 "Bundle 'fisadev/vim-isort'
 Bundle 'Shougo/neocomplcache.vim'
 
@@ -101,7 +101,6 @@ set showmatch                " Cursor shows matching ) and }
 set showmode                 " Show current mode
 set backspace=2              " make backspace work like most other apps
 set scrolloff=3
-
 "==========  Bundle Setting ======
 
 "==== For Python mode in vim =====
@@ -117,7 +116,10 @@ let g:pymode_lint = 1
 let g:pymode_lint_checker = "pyflakes,pep8"
 
 " Auto check on save
-let g:pymode_lint_write = 1
+let g:pymode_lint_write = 0
+let g:pymode_lint_on_fly = 1
+let g:pymode_lint_message = 1
+let g:pymode_lint_cwindow = 0
 
 " Support virtualenv
 let g:pymode_virtualenv = 1
@@ -144,10 +146,10 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_python_pep8_args='--ignore=E501,E225'
-let g:syntastic_python_flake8_args='--ignore=E501,E225'
+"let g:syntastic_always_populate_loc_list = 0
+"let g:syntastic_auto_loc_list = 1
+"let g:syntastic_check_on_open = 0
+"let g:syntastic_check_on_wq = 1
+"let g:syntastic_python_pep8_args='--ignore=E501,E225'
+"let g:syntastic_python_flake8_args='--ignore=E501,E225'
 
