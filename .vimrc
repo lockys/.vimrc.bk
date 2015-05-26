@@ -65,10 +65,9 @@ Bundle 'rkulla/pydiction'
 Bundle 'pangloss/vim-javascript'
 Bundle 'othree/html5.vim'
 Bundle 'hail2u/vim-css3-syntax'
-Bundle 'othree/vim-javascript-syntax'
+"Bundle 'othree/vim-javascript-syntax'
 Bundle 'mattn/emmet-vim'
 Bundle 'gregsexton/MatchTag'
-
 call vundle#end()
 
 "General Vim Setting
@@ -136,7 +135,12 @@ let g:pydiction_location = '/Users/Calvin/.vim/bundle/pydiction/complete-dict'
 " ===== Web Dev =====
 autocmd filetype html,css EmmetInstall
 let g:user_emmet_install_global = 0
-
+" JavaScript folding setting
+"set foldmethod=syntax
+"set foldlevelstart=1
+let javascript_fold=1
+set foldmethod=indent
+set foldnestmax=2
 " ===== For Nerd Tree Setting =====
 map <F2> :NERDTreeToggle<CR>
 map <F1> :NERDTreeTabsToggle<CR>
