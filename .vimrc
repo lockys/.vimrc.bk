@@ -135,7 +135,7 @@ let g:pydiction_location = '/Users/Calvin/.vim/bundle/pydiction/complete-dict'
 " ===== Web Dev =====
 autocmd filetype html,css EmmetInstall
 let g:user_emmet_install_global = 0
-" JavaScript folding setting
+" JavaScript folding setting, note that it will effect python folding too.
 "set foldmethod=syntax
 "set foldlevelstart=1
 let javascript_fold=1
