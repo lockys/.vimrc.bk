@@ -38,12 +38,11 @@ Bundle 'majutsushi/tagbar'
 Bundle 'tomtom/tcomment_vim'
 " Git Plugin
 Bundle 'tpope/vim-fugitive'
-
 Bundle 'honza/vim-snippets'
 Bundle 'garbas/vim-snipmate'
 
 " ====== For python dev ======
-"Bundle 'davidhalter/jedi-vim'
+Bundle 'davidhalter/jedi-vim'
 " Python syntax, indent check
 "Bundle 'hynek/vim-python-pep8-indent'
 " Supertab is a vim plugin which allows you to use <Tab> for all your insert completion needs
